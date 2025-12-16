@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOVA ANDRIANOV :: PRODUCT DESIGNER</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="matrix-bg"></div>
+    <div class="scanlines"></div>
+    <div class="grid-overlay"></div>
+
+    <!-- Terminal Navigation -->
+    <nav class="terminal-nav">
+        <div class="terminal-line">
+            <span class="cursor-blink">$</span>
+            <span class="terminal-text green">vova_andrianov@portfolio:~</span>
+        </div>
+        <div class="nav-coords">
+            <a href="#hero" class="nav-coord" data-text="[HOME]">[00]</a>
+            <a href="#work" class="nav-coord" data-text="[WORK]">[01]</a>
+            <a href="#about" class="nav-coord" data-text="[ABOUT]">[02]</a>
+            <a href="#contact" class="nav-coord" data-text="[CONTACT]">[03]</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-center">
+                <div class="typewriter-container">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <div class="terminal-dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="terminal-title">portfolio.sh</div>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="terminal-line">
+                                <span class="prompt green">$</span>
+                                <span class="command cyan">echo "Hello, World!"</span>
+                            </div>
+                            <div class="terminal-output">
+                                <div class="hello-text">Hello! I'm</div>
+                                <h1 class="glitch" data-text="VOVA ANDRIANOV">VOVA ANDRIANOV</h1>
+                                <div class="typing-container">
+                                    <span class="typing-text">PRODUCT DESIGNER</span>
+                                    <span class="cursor"></span>
+                                </div>
+                            </div>
+                            <div class="terminal-line">
+                                <span class="prompt green">$</span>
+                                <span class="command cyan">cat location.txt</span>
+                            </div>
+                            <div class="terminal-output">
+                                <p class="location">📍 Moscow, Russia • Available for remote work</p>
+                            </div>
+                            <div class="terminal-line">
+                                <span class="prompt green">$</span>
+                                <span class="command cyan">./explore_projects.sh</span>
+                            </div>
+                            <div class="hero-buttons">
+                                <a href="#work" class="terminal-btn">
+                                    <span>EXPLORE_WORK</span>
+                                    <div class="btn-glow"></div>
+                                </a>
+                                <a href="#contact" class="terminal-btn secondary">
+                                    <span>CONTACT_ME</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-hint">
+            <span class="mono">scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section class="work" id="work">
+        <div class="container">
+            <div class="section-label">
+                <div class="label-line"></div>
+                <span>SELECTED WORK</span>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="product">
+                    <div class="project-header">
+                        <div class="project-meta">
+                            <span class="project-number">01</span>
+                            <span class="project-category">FINANCE • 2024</span>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge completed">COMPLETED</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">NeoBank Dashboard</h3>
+                        <p class="project-description">Complete redesign of analytics dashboard for digital banking startup. Implemented real-time data visualization and customizable widgets.</p>
+                        <div class="project-impact">
+                            <div class="impact-item">
+                                <span class="impact-label">Engagement</span>
+                                <span class="impact-value green">+42%</span>
+                            </div>
+                            <div class="impact-item">
+                                <span class="impact-label">User Retention</span>
+                                <span class="impact-value green">+35%</span>
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">Prototyping</span>
+                            <span class="tag">User Research</span>
+                            <span class="tag">Data Viz</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="project-neobank.html" class="project-link">
+                            <span>VIEW CASE STUDY</span>
+                            <div class="link-arrow">⟶</div>
+                        </a>
+                        <a href="#" class="project-link secondary">
+                            <span>LIVE DEMO</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-category="health">
+                    <div class="project-header">
+                        <div class="project-meta">
+                            <span class="project-number">02</span>
+                            <span class="project-category">HEALTH • 2023</span>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge completed">COMPLETED</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">MedTrack Pro</h3>
+                        <p class="project-description">Healthcare app redesign focusing on medication management for elderly users. Simplified complex workflows and improved accessibility.</p>
+                        <div class="project-impact">
+                            <div class="impact-item">
+                                <span class="impact-label">Task Completion</span>
+                                <span class="impact-value green">+65%</span>
+                            </div>
+                            <div class="impact-item">
+                                <span class="impact-label">Error Reduction</span>
+                                <span class="impact-value green">-78%</span>
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Accessibility</span>
+                            <span class="tag">User Testing</span>
+                            <span class="tag">iOS</span>
+                            <span class="tag">Android</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="project-medtrack.html" class="project-link">
+                            <span>VIEW CASE STUDY</span>
+                            <div class="link-arrow">⟶</div>
+                        </a>
+                        <a href="#" class="project-link secondary">
+                            <span>APP STORE</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-category="ecommerce">
+                    <div class="project-header">
+                        <div class="project-meta">
+                            <span class="project-number">03</span>
+                            <span class="project-category">E-COMMERCE • 2024</span>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge live">LIVE</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">UrbanStyle AR Store</h3>
+                        <p class="project-description">Fashion e-commerce platform with AR try-on features and personalized recommendations. Enhanced shopping experience with 3D visualization.</p>
+                        <div class="project-impact">
+                            <div class="impact-item">
+                                <span class="impact-label">Conversion</span>
+                                <span class="impact-value green">+28%</span>
+                            </div>
+                            <div class="impact-item">
+                                <span class="impact-label">Avg. Order Value</span>
+                                <span class="impact-value green">+22%</span>
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">AR/VR</span>
+                            <span class="tag">3D Design</span>
+                            <span class="tag">E-commerce</span>
+                            <span class="tag">WebGL</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="project-urbanstyle.html" class="project-link">
+                            <span>VIEW CASE STUDY</span>
+                            <div class="link-arrow">⟶</div>
+                        </a>
+                        <a href="#" class="project-link secondary">
+                            <span>VISIT SITE</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card" data-category="travel">
+                    <div class="project-header">
+                        <div class="project-meta">
+                            <span class="project-number">04</span>
+                            <span class="project-category">TRAVEL • 2023</span>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge live">LIVE</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Travel AI Assistant</h3>
+                        <p class="project-description">AI-powered travel planning tool that generates personalized itineraries based on user preferences, budget, and travel history.</p>
+                        <div class="project-impact">
+                            <div class="impact-item">
+                                <span class="impact-label">User Retention</span>
+                                <span class="impact-value green">+37%</span>
+                            </div>
+                            <div class="impact-item">
+                                <span class="impact-label">Planning Time</span>
+                                <span class="impact-value green">-85%</span>
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">AI/ML</span>
+                            <span class="tag">Mobile Design</span>
+                            <span class="tag">API Integration</span>
+                            <span class="tag">UX Writing</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="project-travel-ai.html" class="project-link">
+                            <span>VIEW CASE STUDY</span>
+                            <div class="link-arrow">⟶</div>
+                        </a>
+                        <a href="#" class="project-link secondary">
+                            <span>TRY DEMO</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="view-all">
+                <a href="projects.html" class="terminal-link">
+                    <span>VIEW_ALL_PROJECTS</span>
+                    <div class="link-arrow">⟶</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-left">
+                    <div class="section-label">
+                        <div class="label-line"></div>
+                        <span>ABOUT</span>
+                    </div>
+                    <div class="about-content">
+                        <h2 class="section-title">Designing digital experiences with <span class="highlight">precision</span> and <span class="highlight">purpose</span></h2>
+                        <div class="about-text">
+                            <p>I'm a product designer based in <strong>Moscow</strong>, specializing in creating intuitive digital experiences that solve real problems. With background in both design and front-end development, I bridge the gap between aesthetics and functionality.</p>
+                            <p>My approach combines <strong>user-centered design</strong>, <strong>data-driven decisions</strong>, and <strong>technical feasibility</strong> to deliver products that people love to use.</p>
+                        </div>
+                        <div class="about-stats">
+                            <div class="stat">
+                                <div class="stat-number" data-count="50">0</div>
+                                <div class="stat-label">PROJECTS</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-number" data-count="3">0</div>
+                                <div class="stat-label">YEARS</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-number" data-count="100">0</div>
+                                <div class="stat-label">% SATISFACTION</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-right">
+                    <div class="skills-terminal">
+                        <div class="terminal-header">
+                            <div class="terminal-dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="terminal-title">skills.sh</div>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="terminal-line">
+                                <span class="prompt green">$</span>
+                                <span class="command cyan">ls -la skills/</span>
+                            </div>
+                            <div class="terminal-output">
+                                <div class="skill">
+                                    <span>UI/UX Design</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <span>Product Strategy</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 88%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <span>Prototyping</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 92%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <span>Front-end Dev</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 75%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <span>User Research</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Metrics Table (Required) -->
+    <section class="metrics" id="metrics">
+        <div class="container">
+            <div class="section-label">
+                <div class="label-line"></div>
+                <span>PROJECT METRICS</span>
+            </div>
+
+            <div class="metrics-terminal">
+                <div class="terminal-header">
+                    <div class="terminal-dots">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="terminal-title">projects_metrics.csv</div>
+                </div>
+                <div class="table-container">
+                    <table id="projectsTable">
+                        <thead>
+                            <tr>
+                                <th>PROJECT</th>
+                                <th>CLIENT</th>
+                                <th>YEAR</th>
+                                <th>TIMELINE</th>
+                                <th>TEAM SIZE</th>
+                                <th>IMPACT</th>
+                                <th>STATUS</th>
+                                <th>ACTIONS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Table will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+                <div class="table-controls">
+                    <button class="terminal-btn small" id="sortName">SORT BY NAME</button>
+                    <button class="terminal-btn small" id="sortImpact">SORT BY IMPACT</button>
+                    <button class="terminal-btn small" id="highlightLive">HIGHLIGHT LIVE</button>
+                    <button class="terminal-btn small secondary" id="resetTable">RESET VIEW</button>
+                </div>
+                <div class="table-info">
+                    <div class="info-line">
+                        <span class="prompt">$</span>
+                        <span class="info-text">Table showing 8 projects with detailed metrics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-left">
+                    <div class="section-label">
+                        <div class="label-line"></div>
+                        <span>CONTACT</span>
+                    </div>
+                    <h2 class="section-title">Let's build something <span class="highlight">amazing</span> together</h2>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">→</div>
+                            <div>
+                                <div class="contact-label">EMAIL</div>
+                                <a href="mailto:vladim.andrianov2005@yandex.ru" class="contact-link">vladim.andrianov2005@yandex.ru</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">→</div>
+                            <div>
+                                <div class="contact-label">LOCATION</div>
+                                <div class="contact-text">Moscow, Russia • Remote worldwide</div>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">→</div>
+                            <div>
+                                <div class="contact-label">AVAILABILITY</div>
+                                <div class="contact-text">Available for freelance & full-time</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-grid">
+                        <a href="#" class="social-link" data-tooltip="LinkedIn">LN</a>
+                        <a href="#" class="social-link" data-tooltip="Dribbble">DB</a>
+                        <a href="#" class="social-link" data-tooltip="Behance">BH</a>
+                        <a href="#" class="social-link" data-tooltip="Telegram">TG</a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <div class="contact-terminal">
+                        <div class="terminal-header">
+                            <div class="terminal-dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="terminal-title">send_message.sh</div>
+                        </div>
+                        <div class="terminal-body">
+                            <form id="contactForm">
+                                <div class="input-line">
+                                    <span class="prompt green">$</span>
+                                    <input type="text" id="name" placeholder="Enter your name" required>
+                                </div>
+                                <div class="input-line">
+                                    <span class="prompt green">$</span>
+                                    <input type="email" id="email" placeholder="Enter your email" required>
+                                </div>
+                                <div class="input-line">
+                                    <span class="prompt green">$</span>
+                                    <textarea id="message" placeholder="Type your message here..." required></textarea>
+                                </div>
+                                <button type="submit" class="terminal-btn submit">
+                                    <span>SEND_MESSAGE</span>
+                                    <div class="btn-glow"></div>
+                                </button>
+                                <div id="formMessage"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">VOVA_ANDRIANOV</div>
+                    <div class="footer-text">Product Designer • Moscow • 2025</div>
+                </div>
+                <div class="footer-right">
+                    <a href="#hero" class="back-top">
+                        <span>BACK_TO_TOP</span>
+                        <div class="arrow-up">↑</div>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">© 2025 Vova Andrianov. All systems operational.</div>
+                <div class="footer-note">Built with HTML/CSS/JS • Portfolio project</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

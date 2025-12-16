@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeoBank Dashboard - Vova Andrianov</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="matrix-bg"></div>
+    <div class="scanlines"></div>
+    <div class="grid-overlay"></div>
+
+    <!-- Navigation -->
+    <nav class="terminal-nav">
+        <div class="terminal-line">
+            <span class="cursor-blink">$</span>
+            <span class="terminal-text green">vova_andrianov@portfolio:~/neobank</span>
+        </div>
+        <div class="nav-coords">
+            <a href="index.html" class="nav-coord" data-text="[HOME]">[00]</a>
+            <a href="index.html#work" class="nav-coord" data-text="[WORK]">[01]</a>
+            <a href="index.html#contact" class="nav-coord" data-text="[CONTACT]">[02]</a>
+        </div>
+    </nav>
+
+    <!-- Project Header -->
+    <section class="project-hero">
+        <div class="container">
+            <div class="project-header">
+                <div class="project-meta-large">
+                    <span class="project-category">FINANCE • 2024</span>
+                    <h1 class="project-title-large">NeoBank Dashboard</h1>
+                    <div class="project-status-badge">
+                        <span class="status-badge completed">COMPLETED</span>
+                        <span class="project-timeline">3 months</span>
+                    </div>
+                </div>
+                <div class="project-hero-image">
+                    <div class="image-placeholder">
+                        <div class="mockup-screen">
+                            <div class="screen-header">
+                                <div class="screen-dots">
+                                    <span></span><span></span><span></span>
+                                </div>
+                                <div class="screen-title">NeoBank Analytics</div>
+                            </div>
+                            <div class="screen-content">
+                                <div class="data-widget">
+                                    <div class="widget-title">Total Balance</div>
+                                    <div class="widget-value">$45,238.90</div>
+                                    <div class="widget-change green">+12.5%</div>
+                                </div>
+                                <div class="data-widget">
+                                    <div class="widget-title">Monthly Spending</div>
+                                    <div class="widget-value">$2,845.00</div>
+                                    <div class="widget-change">-3.2%</div>
+                                </div>
+                                <div class="chart-container">
+                                    <div class="chart-bar" style="height: 80%"></div>
+                                    <div class="chart-bar" style="height: 60%"></div>
+                                    <div class="chart-bar" style="height: 90%"></div>
+                                    <div class="chart-bar" style="height: 70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-overview">
+                <div class="overview-stats">
+                    <div class="stat-card">
+                        <div class="stat-value green">+42%</div>
+                        <div class="stat-label">User Engagement</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value green">+35%</div>
+                        <div class="stat-label">User Retention</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value green">-40%</div>
+                        <div class="stat-label">Support Tickets</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">4.8/5.0</div>
+                        <div class="stat-label">User Satisfaction</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Content -->
+    <section class="project-content">
+        <div class="container">
+            <div class="content-grid">
+                <div class="content-main">
+                    <!-- Challenge -->
+                    <div class="content-section">
+                        <div class="section-label">
+                            <div class="label-line"></div>
+                            <span>CHALLENGE</span>
+                        </div>
+                        <h2>Simplifying complex financial data for digital natives</h2>
+                        <p>NeoBank, a fintech startup, approached us with a common problem in the digital banking space: their existing dashboard was overwhelming for users. With multiple charts, complex metrics, and no clear hierarchy, users struggled to understand their financial health at a glance.</p>
+                        <p>The original interface showed 15+ data points simultaneously, causing cognitive overload. User testing revealed that 68% of users couldn't quickly find their current balance, and 45% abandoned the dashboard within 30 seconds.</p>
+                        
+                        <div class="quote">
+                            <div class="quote-icon">"</div>
+                            <p class="quote-text">Users shouldn't need a finance degree to understand their own money.</p>
+                            <div class="quote-author">— Product Manager, NeoBank</div>
+                        </div>
+                    </div>
+
+                    <!-- Solution -->
+                    <div class="content-section">
+                        <div class="section-label">
+                            <div class="label-line"></div>
+                            <span>SOLUTION</span>
+                        </div>
+                        <h2>Intuitive hierarchy with progressive disclosure</h2>
+                        <p>We redesigned the dashboard with a mobile-first approach, focusing on three key principles:</p>
+                        
+                        <div class="solution-points">
+                            <div class="solution-point">
+                                <div class="point-number">01</div>
+                                <div class="point-content">
+                                    <h3>Glanceable Overview</h3>
+                                    <p>Critical information (balance, recent transactions, upcoming bills) visible without scrolling. Color-coded indicators for positive/negative changes.</p>
+                                </div>
+                            </div>
+                            <div class="solution-point">
+                                <div class="point-number">02</div>
+                                <div class="point-content">
+                                    <h3>Progressive Disclosure</h3>
+                                    <p>Detailed analytics hidden behind interactive elements. Users can drill down into spending categories, investment performance, or savings goals as needed.</p>
+                                </div>
+                            </div>
+                            <div class="solution-point">
+                                <div class="point-number">03</div>
+                                <div class="point-content">
+                                    <h3>Personalized Insights</h3>
+                                    <p>AI-powered insights surface relevant information based on user behavior. "You're spending 20% more on dining this month" instead of raw data.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="design-process">
+                            <h3>Design Process</h3>
+                            <div class="process-steps">
+                                <div class="process-step">
+                                    <span class="step-label">Research</span>
+                                    <span class="step-duration">2 weeks</span>
+                                </div>
+                                <div class="process-step">
+                                    <span class="step-label">Wireframing</span>
+                                    <span class="step-duration">3 weeks</span>
+                                </div>
+                                <div class="process-step">
+                                    <span class="step-label">Prototyping</span>
+                                    <span class="step-duration">4 weeks</span>
+                                </div>
+                                <div class="process-step">
+                                    <span class="step-label">Testing</span>
+                                    <span class="step-duration">3 weeks</span>
+                                </div>
+                                <div class="process-step">
+                                    <span class="step-label">Development</span>
+                                    <span class="step-duration">6 weeks</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Results -->
+                    <div class="content-section">
+                        <div class="section-label">
+                            <div class="label-line"></div>
+                            <span>RESULTS</span>
+                        </div>
+                        <h2>Tangible impact on user behavior</h2>
+                        
+                        <div class="results-grid">
+                            <div class="result-card">
+                                <div class="result-icon">📈</div>
+                                <h3>42% Increase in Engagement</h3>
+                                <p>Average session duration increased from 45 seconds to 3.2 minutes. Users now regularly check their dashboard 3-4 times per week.</p>
+                            </div>
+                            <div class="result-card">
+                                <div class="result-icon">💰</div>
+                                <h3>23% More Savings</h3>
+                                <p>Visualizing spending patterns led to better financial habits. Users saved an average of 23% more in the first quarter post-launch.</p>
+                            </div>
+                            <div class="result-card">
+                                <div class="result-icon">⭐</div>
+                                <h3>4.8/5 Satisfaction</h3>
+                                <p>User satisfaction scores jumped from 3.2 to 4.8. App store rating improved by 1.2 stars within two months.</p>
+                            </div>
+                            <div class="result-card">
+                                <div class="result-icon">📱</div>
+                                <h3>Mobile Adoption</h3>
+                                <p>Mobile app usage increased by 65%, with 82% of users preferring the new dashboard over web version.</p>
+                            </div>
+                        </div>
+
+                        <div class="testimonial">
+                            <div class="testimonial-content">
+                                <p>"The redesign transformed how our users interact with their finances. What was once overwhelming is now empowering. The dashboard has become the most visited section of our app."</p>
+                                <div class="testimonial-author">
+                                    <div class="author-name">Alex Chen</div>
+                                    <div class="author-role">Head of Product, NeoBank</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="content-sidebar">
+                    <div class="sidebar-card">
+                        <h3 class="sidebar-title">Project Details</h3>
+                        <div class="sidebar-info">
+                            <div class="info-item">
+                                <span class="info-label">Client</span>
+                                <span class="info-value">FinTech Startup</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Year</span>
+                                <span class="info-value">2024</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Timeline</span>
+                                <span class="info-value">3 months</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Team Size</span>
+                                <span class="info-value">4 people</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">My Role</span>
+                                <span class="info-value">Lead Product Designer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-card">
+                        <h3 class="sidebar-title">Tools Used</h3>
+                        <div class="tools-list">
+                            <span class="tool-tag">Figma</span>
+                            <span class="tool-tag">Framer</span>
+                            <span class="tool-tag">After Effects</span>
+                            <span class="tool-tag">Miro</span>
+                            <span class="tool-tag">Notion</span>
+                            <span class="tool-tag">Google Analytics</span>
+                            <span class="tool-tag">Hotjar</span>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-card">
+                        <h3 class="sidebar-title">Key Features</h3>
+                        <ul class="features-list">
+                            <li>Real-time balance visualization</li>
+                            <li>Smart spending categorization</li>
+                            <li>Customizable widgets</li>
+                            <li>Predictive analytics</li>
+                            <li>Dark/light mode</li>
+                            <li>Offline functionality</li>
+                            <li>Voice commands</li>
+                            <li>Biometric authentication</li>
+                        </ul>
+                    </div>
+
+                    <div class="sidebar-card">
+                        <h3 class="sidebar-title">Project Assets</h3>
+                        <div class="assets-links">
+                            <a href="#" class="asset-link">
+                                <span class="link-icon">📄</span>
+                                <span>Case Study PDF</span>
+                            </a>
+                            <a href="#" class="asset-link">
+                                <span class="link-icon">🎬</span>
+                                <span>Prototype Demo</span>
+                            </a>
+                            <a href="#" class="asset-link">
+                                <span class="link-icon">🎨</span>
+                                <span>Design System</span>
+                            </a>
+                            <a href="#" class="asset-link">
+                                <span class="link-icon">📊</span>
+                                <span>Research Data</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-card">
+                        <h3 class="sidebar-title">Next Project</h3>
+                        <a href="project-medtrack.html" class="next-project">
+                            <div class="next-project-content">
+                                <span class="next-label">NEXT →</span>
+                                <h4>MedTrack Pro</h4>
+                                <p>Healthcare app redesign for medication management</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="project-footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="index.html" class="back-to-portfolio">
+                    <span class="back-arrow">←</span>
+                    <span>Back to Portfolio</span>
+                </a>
+                <div class="footer-contact">
+                    <a href="mailto:vladim.andrianov2005@yandex.ru" class="contact-email">vladim.andrianov2005@yandex.ru</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
